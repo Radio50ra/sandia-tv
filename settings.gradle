@@ -1,0 +1,2 @@
+rootProject.name = "sandia-tv"
+include ":app"
