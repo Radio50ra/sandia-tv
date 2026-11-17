@@ -1,0 +1,14 @@
+rootProject.name = "sandia-tv"
+include ':app'
+EOFç
+rootProject.name = "sandia-tv"
+include ':app'
+EOFçrootProject.name = "sandia-tv"
+include ':app'
+EOFç
+cat > build.gradle << 'EOF'
+buildscript {
+    repositories { google(); mavenCentral() }
+    dependencies { classpath 'com.android.tools.build:gradle:8.1.0' }
+}
+allprojects { repositories { google(); mavenCentral() } }
